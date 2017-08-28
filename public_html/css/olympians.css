@@ -1,0 +1,58 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Mukta Mahee', sans-serif;
+  color: #555555;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin: 10px 0px;
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+img.image {
+  max-width: 100%;
+}
+
+a {
+  color: black;
+}
+
+.website {
+  margin: 10px 10px 10px auto;
+
+  min-width: 620px;
+  max-width: 1200px;
+  text-align: right;
+}
+
+.video {
+  width: calc(100%-20px);
+  margin-left: 10px;
+}
+
+.intro {
+  margin-left: 10px;
+}
+
+.video iframe {
+  max-width: 100% !important;
+}
+
+@media only screen and (max-width: 630px) {
+    .website {
+      min-width: auto;
+      width: 100%;
+      margin: 0px;
+    }
+
+    .video, .intro, h1 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
